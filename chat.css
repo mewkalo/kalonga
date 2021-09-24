@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(15, 15, 122);
+}
+.incomming{
+    background-color: rgb(206, 206, 206);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: auto;
+    display: flex;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.outgoing{
+    background-color: rgb(206, 206, 206);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: auto;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.fieldset{
+    height: 390px;
+    width: 650px;
+    margin-left: 30px;
+    margin-top: 100px;
+    background-color: white;
+}
+.fprofile{
+    display: flex;
+    margin-top: 7px;
+    margin-right: 10px;
+    padding-right: 10px;
+
+}
+.form{
+    margin-top: 50px;
+}
+.fprofile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    top: 0;
+    position: sticky;
+}
+.vn{
+    display: flex;
+    
+}
+.header .navigation{
+    padding-left: 550px;
+    padding-top: 10px;
+}
+.header .navigation a{text-decoration: none;
+    padding: 15px;
+     color: white;
+}
+.header .navigation .active,
+.header .navigation a:hover{
+   background-color: white;
+   color: blue;
+   border-bottom: 7px solid blue;
+   border-top-right-radius: 8px;
+}
+.header .icon img{
+    width: 80px; 
+    height: 40px;
+    border-radius: 45%;
+}
+.header .title{
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 30px;
+}
+.onlinetost{
+    margin-left: 70px;
+    height: 615px;
+    background-color: white;
+}
+#search{
+    width: 400px;
+    height: 30px;
+}
+#but{
+    height: 30px;
+    width: 100px;
+}

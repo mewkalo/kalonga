@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: sticky;
+}
+.header .navigation{
+    padding-left: 500px;
+    padding-top: 10px;
+}
+.header .navigation a{text-decoration: none;
+     padding: 15px;
+      color: white;
+}
+.header .navigation .active,
+.header .navigation a:hover{
+    background-color: white;
+    color: blue;
+    border-bottom: 7px solid blue;
+    border-top-right-radius: 8px;
+}
+.header .icon img{
+    width: 80px; 
+    height: 40px;
+    border-radius: 45%;
+}
+.header .title{
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 30px;
+}
+.line1{
+    border: 2px solid blue;
+}
+.main-container{
+    padding: 70px 400px;
+    background-image: url(m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.main-container .h3 p{
+    padding-left: 130px;
+  }
+  .h3{
+    text-shadow: 7px 7px 10px #080808ca;
+  }
+.main-container .h3 span{
+    color: blue;
+    font-size: 34pt;
+}
+.chatinfo{
+    text-align: right;
+    margin-left: 760px;
+    display: flex; 
+}
+.chatinfo a:hover{
+    background-color: white;
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(87, 77, 77, 0.555);
+    min-width: 180px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.login{
+    background-color:blue;
+    color: white;
+    padding: 6px;
+    margin-right: 7px;
+    margin-top: 70px;
+    margin-bottom: -50px;
+    text-decoration: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1px solid white;
+}
+#date{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.signup{
+    background-color:blue;
+    color:white;
+    padding: 6px;
+    margin-top: 70px;
+    margin-bottom: -50px;
+    text-decoration: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1px solid white;
+}
+.additives{
+    display: flex;
+    padding-top: 15px;
+}
+.cont1,.cont2,.cont3,.cont4,.mean{
+    margin-left: 10px;
+    display:flex;
+    background-color: rgb(245, 245, 245);
+    color: black;
+}
+.cont{
+    display:flex;
+    background-color: rgb(248, 245, 245);
+    color: black;
+}
+.additives a{
+    text-decoration: none;
+    color: black;
+}
+.additives p{
+    padding-top: -5px;
+}
+.ic{
+    width: 70px;
+    height: 90px;
+    border-radius: 15px;
+    padding: 7px;
+}
+.footer{
+    background-color: rgb(184, 181, 181);
+    margin-top: 5.12px;
+    padding:6.2px;
+    display: flex;
+}
+.n{
+    margin-left: 400px;
+    display: flex;
+}
+.cont4 .add{
+    color: blue;
+}
+.cont3 .add{
+    color: blue;
+}
+.cont2 .add{
+    color: blue;
+}
+.cont1 .add{
+    color: blue;
+}
+.cont .add{
+    color: blue;
+}
+.icon i{
+    padding: 7px;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-facebook:hover{
+    transform: rotateX(360deg);
+    transition-duration:0.2s
+}
+.fa-whatsapp{
+    color: darkcyan;
+}
+.fa-whatsapp:hover{
+    transform: rotateX(360deg);
+    transition-duration: 0.2s;
+}
+.fa-instagram{
+    color: rgb(199, 33, 11);
+}
+.fa-instagram:hover{
+    transform: rotateX(180deg);
+    transition-duration: 0.2s;
+    transition: width 12s, height 12s;
+}
+.img1 img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+#comment{
+    width: 200px;
+    height: 100px;
+}
+.jk img{
+    width: 200px;
+    height: 150px;
+}
+.jk{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.bout{
+    background-color: rgb(233, 232, 232);
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.gh{
+    display: flex;
+}
+.con1{
+    display: flex;
+    margin-top: 20px;
+}
+.cont7{
+    margin-top: 50px;
+}
+.fa-tty{
+    margin-right: 7px;
+}
+.fa-envelope{
+    margin-right: 7px;
+}
+.fa-twitter{
+    color:blue;
+}
+.fa-twitter:hover{
+    transform: rotateX(360deg);
+    transition-duration:0.2s;
+}
+.can{
+    background-color:rgb(245, 245, 245);
+    margin-right: 5px;
+    margin-left: 0px;
+    padding-left:0px;
+
+}
+.can1,.can2,.can3,.can4{
+    background-color:rgb(245, 245, 245);
+    margin-left: 112px;
+    margin-top: 0px;
+}
+.mean{
+    display: flex;
+}
+
